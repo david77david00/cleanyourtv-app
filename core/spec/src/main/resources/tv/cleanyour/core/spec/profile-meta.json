@@ -1756,7 +1756,7 @@
       }
     },
     "rca-ai-pont": {
-      "match": { "models": ["AI PONT SA"], "devices": ["redwood"], "brand": "RCA", "sdkMin": 34, "sdkMax": 34, "fingerprintPrefix": null },
+      "match": { "models": ["AI PONT SA", "AI PONT"], "devices": ["redwood"], "brand": null, "sdkMin": 34, "sdkMax": 34, "fingerprintPrefix": null },
       "platform": "ANDROID_TV",
       "stockLaunchers": ["com.google.android.tvlauncher"],
       "liveTv": "com.mediatek.wwtv.tvcenter",
@@ -1764,7 +1764,7 @@
       "quirks": [],
       "neverDisable": ["com.homwee.factory", "com.mediatek.wwtv.setupwizard", "com.homwee.synckey", "com.mediatek.wwtv.tvcenter", "com.mediatek.tv.service", "com.mediatek.tvinput"],
       "suggestedDock": [],
-      "tested": { "by": "pranabsarma18 (PR #38)", "firmware": "UKNV.260504.001", "daysLivedWith": null, "rebootTested": false },
+      "tested": { "by": "pranabsarma18 (PR #38); realme DVB92RM confirmed from TV report 2026-10-27", "firmware": "UKNV.260504.001 / UKNV.260514.001", "daysLivedWith": null, "rebootTested": false },
       "groups": {
         "Homwee store, ads, installers and media extras": { "category": "brand", "ask": false },
         "Content recognition, FAST channels and Google TV promo rows": { "category": "tracking", "ask": false },
